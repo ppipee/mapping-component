@@ -3,7 +3,7 @@
   "metadata": {},
   "schema": {
     "name": "mapping-component",
-    "friendlyName": "mapping-component",
+    "friendlyName": "Mapping Component",
     "description": "a mapping component for any array data source that can access each row data to do whatever you want",
     "icon": "Feed",
     "hasChildren": true,

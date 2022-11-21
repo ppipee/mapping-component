@@ -20,11 +20,13 @@
       "values": [
         {
           "key": "data",
-          "label": "Row data"
+          "label": "Row data",
+          "type": "any"
         },
         {
           "key": "index",
-          "label": "Row index"
+          "label": "Row index",
+          "type": "number"
         }
       ]
     }

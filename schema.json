@@ -1,0 +1,32 @@
+{
+  "type": "component",
+  "metadata": {},
+  "schema": {
+    "name": "mapping-component",
+    "friendlyName": "mapping-component",
+    "description": "a mapping component for any array data source that can access each row data to do whatever you want",
+    "icon": "Feed",
+    "hasChildren": true,
+    "settings": [
+      {
+        "type": "field/array",
+        "key": "dataSource",
+        "label": "Data Source",
+        "defaultValue": []
+      }
+    ],
+    "context": {
+      "type": "static",
+      "values": [
+        {
+          "key": "data",
+          "label": "Row data"
+        },
+        {
+          "key": "index",
+          "label": "Row index"
+        }
+      ]
+    }
+  }
+}

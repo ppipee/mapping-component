@@ -9,7 +9,7 @@
     "hasChildren": true,
     "settings": [
       {
-        "type": "field/array",
+        "type": "text",
         "key": "dataSource",
         "label": "Data Source",
         "defaultValue": []

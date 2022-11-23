@@ -1,6 +1,6 @@
 {
   "name": "mapping-component",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a mapping component for any array data source that can access each row data to do whatever you want",
   "license": "MIT",
   "svelte": "index.js",
@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@crownframework/svelte-error-boundary": "^1.0.3",
+    "lodash": "4.17.21",
     "svelte": "^3.49.0"
   },
   "devDependencies": {
